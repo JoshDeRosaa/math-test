@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu breakfast">
+            <h2>Breakfast Menu</h2>
+            <ul>
+                <li>Pancakes - $5.99</li>
+                <li>Omelette - $6.99</li>
+                <li>Coffee - $2.50</li>
+            </ul>
+        </div>
+
+        <div class="menu lunch">
+            <h2>Lunch Menu</h2>
+            <ul>
+                <li>Cheeseburger - $8.99</li>
+                <li>Grilled Chicken Salad - $7.99</li>
+                <li>Iced Tea - $2.99</li>
+            </ul>
+        </div>
+
+        <div class="menu dinner">
+            <h2>Dinner Menu</h2>
+            <ul>
+                <li>Steak - $14.99</li>
+                <li>Pasta Alfredo - $12.99</li>
+                <li>Wine - $6.50</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
