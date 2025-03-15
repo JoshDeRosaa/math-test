@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.menu {
+    width: 400px;
+    height: 550px;
+    padding: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+}
+
+.menu h2 {
+    text-align: center;
+}
+
+/* Unique Backgrounds */
+.breakfast {
+    background: url('breakfast.jpg') no-repeat center center/cover;
+}
+
+.lunch {
+    background: url('lunch.jpg') no-repeat center center/cover;
+}
+
+.dinner {
+    background: url('dinner.jpg') no-repeat center center/cover;
+}
+
+/* Box Model Styling */
+.menu ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.menu li {
+    margin: 10px 0;
+    font-size: 18px;
+}
