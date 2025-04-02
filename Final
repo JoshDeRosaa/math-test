@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Daily Schedule</title>
+    <style>
+        /* Table styling */
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #f8f9fa;
+        }
+        
+        /* Header styling */
+        th {
+            background-color: #343a40;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        /* Row and cell styling */
+        td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+        }
+        
+        /* Alternating row colors */
+        tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        /* Style for time column */
+        .time {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">My Daily Schedule</h2>
+    
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+        <tr>
+            <td class="time">7:00 AM</td>
+            <td>Wake up & get ready</td>
+        </tr>
+        <tr>
+            <td class="time">8:00 AM</td>
+            <td>Eat breakfast</td>
+        </tr>
+        <tr>
+            <td class="time">9:00 AM</td>
+            <td>Attend online class</td>
+        </tr>
+        <tr>
+            <td class="time">11:00 AM</td>
+            <td>Work on assignments</td>
+        </tr>
+        <tr>
+            <td class="time">1:00 PM</td>
+            <td>Lunch break</td>
+        </tr>
+        <tr>
+            <td class="time">3:00 PM</td>
+            <td>Go for a walk</td>
+        </tr>
+        <tr>
+            <td class="time">5:00 PM</td>
+            <td>Study session</td>
+        </tr>
+        <tr>
+            <td class="time">7:00 PM</td>
+            <td>Dinner with family</td>
+        </tr>
+        <tr>
+            <td class="time">9:00 PM</td>
+            <td>Watch a show & relax</td>
+        </tr>
+    </table>
+
+</body>
+</html>
